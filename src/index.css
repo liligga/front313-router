@@ -54,6 +54,17 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  padding-inline: 0;
+}
+
+nav li a.active {
+  color: red;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
