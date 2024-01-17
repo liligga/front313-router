@@ -61,7 +61,7 @@ nav ul {
   padding-inline: 0;
 }
 
-nav li a.active {
+nav li a.active-menu {
   color: red;
 }
 
